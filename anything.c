@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-//helloworldkhhkhkhjjkjhhjhjkjhjhjhjhjkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+//w
 
 struct Person {
 
