@@ -2,17 +2,14 @@
 
 #include <stdio.h>
 
-
+//helloworld
 
 struct Person {
 
     char name[10];
 
-    int race;
+    int Surname;
 
-    char age[10];
-
-    int origin;
 
 }  ;
 
@@ -34,25 +31,12 @@ int main() {
 
     fflush(stdin);
 
-    printf("Enter Person's Race: ");
+    printf("Enter Person's Surname: ");
 
-    scanf("%d", &st[i].race);
-
-    
-
-    fflush(stdin);
-
-    printf("Enter Person's Age: ");
-
-    scanf("%s", &st[i].age);
+    scanf("%d", &st[i].Surname);
 
     
 
-    fflush(stdin);
-
-    printf("Enter Person's Place of Origin: ");
-
-    scanf("%d", &st[i].origin);
 
 }
 
@@ -66,17 +50,10 @@ int main() {
 
 st[i].name);
 
-        printf("Race : %d\n",
+        printf("Surname : %d\n",
 
-st[i].race);
+st[i].Surname);
 
-        printf("Age : %s\n",
-
-st[i].age);
-
-        printf("Place of Origin : %d\n",
-
-st[i].origin);
 
     }
 
